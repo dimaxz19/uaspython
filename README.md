@@ -26,9 +26,18 @@ Aplikasi memiliki fitur sebagai berikut:
 4. Mencatat pembayaran sewa
 5. Menyimpan data secara permanen menggunakan SQLite
 
-## 3. Konsep Pemrograman yang Digunakan
+## 3. Tujuan Pembuatan Aplikasi
+Tujuan dibuatnya aplikasi ini adalah:
+1. Menerapkan konsep **OOP** dalam Python
+2. Menggunakan **module dan package**
+3. Menerapkan **percabangan (if/elif/else)** dan **perulangan (while, for)**
+4. Menghubungkan Python dengan **database SQLite**
+5. Membuat aplikasi CRUD (Create, Read)
 
-### 3.1 Object Oriented Programming (OOP)
+
+## 4. Konsep Pemrograman yang Digunakan
+
+### 4.1 Object Oriented Programming (OOP)
 Program menggunakan **class** untuk merepresentasikan objek nyata.
 
 Contoh:
@@ -44,11 +53,3 @@ class Kontrakan:
         self.alamat = alamat
         self.harga = harga
         self.status = status
-
-## 4. Tujuan Pembuatan Aplikasi
-Tujuan dibuatnya aplikasi ini adalah:
-1. Menerapkan konsep **OOP** dalam Python
-2. Menggunakan **module dan package**
-3. Menerapkan **percabangan (if/elif/else)** dan **perulangan (while, for)**
-4. Menghubungkan Python dengan **database SQLite**
-5. Membuat aplikasi CRUD (Create, Read)

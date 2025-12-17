@@ -31,3 +31,30 @@ Aplikasi memiliki fitur sebagai berikut:
 ## 3. Struktur Folder
 Struktur folder pada project ini adalah:
 
+sewa_kontrakan/
+│
+├── main.py # Program utama
+│
+├── database/
+│ ├── init.py
+│ ├── db_connection.py # Koneksi database SQLite
+│ ├── init_db.py # Pembuatan tabel database
+│ └── sewa_kontrakan.db # File database
+│
+├── controllers/
+│ ├── init.py
+│ ├── kontrakan_controller.py # Logika data kontrakan
+│ ├── penyewa_controller.py # Logika data penyewa
+│ └── pembayaran_controller.py# Logika data pembayaran
+│
+├── models/
+│ ├── init.py
+│ ├── kontrakan.py # Class Kontrakan
+│ ├── penyewa.py # Class Penyewa
+│ └── pembayaran.py # Class Pembayaran
+│
+├── utils/
+│ ├── init.py
+│ └── menu.py # Tampilan menu
+│
+└── README.md

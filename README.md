@@ -26,35 +26,29 @@ Aplikasi memiliki fitur sebagai berikut:
 4. Mencatat pembayaran sewa
 5. Menyimpan data secara permanen menggunakan SQLite
 
----
+## 3. Konsep Pemrograman yang Digunakan
 
-## 3. Struktur Folder
-Struktur folder pada project ini adalah:
+### 3.1 Object Oriented Programming (OOP)
+Program menggunakan **class** untuk merepresentasikan objek nyata.
 
-sewa_kontrakan/
-│
-├── main.py # Program utama
-│
-├── database/
-│ ├── init.py
-│ ├── db_connection.py # Koneksi database SQLite
-│ ├── init_db.py # Pembuatan tabel database
-│ └── sewa_kontrakan.db # File database
-│
-├── controllers/
-│ ├── init.py
-│ ├── kontrakan_controller.py # Logika data kontrakan
-│ ├── penyewa_controller.py # Logika data penyewa
-│ └── pembayaran_controller.py# Logika data pembayaran
-│
-├── models/
-│ ├── init.py
-│ ├── kontrakan.py # Class Kontrakan
-│ ├── penyewa.py # Class Penyewa
-│ └── pembayaran.py # Class Pembayaran
-│
-├── utils/
-│ ├── init.py
-│ └── menu.py # Tampilan menu
-│
-└── README.md
+Contoh:
+- Kontrakan
+- Penyewa
+- Pembayaran
+
+Contoh class:
+```python
+class Kontrakan:
+    def __init__(self, id, alamat, harga, status):
+        self.id = id
+        self.alamat = alamat
+        self.harga = harga
+        self.status = status
+
+## 4. Tujuan Pembuatan Aplikasi
+Tujuan dibuatnya aplikasi ini adalah:
+1. Menerapkan konsep **OOP** dalam Python
+2. Menggunakan **module dan package**
+3. Menerapkan **percabangan (if/elif/else)** dan **perulangan (while, for)**
+4. Menghubungkan Python dengan **database SQLite**
+5. Membuat aplikasi CRUD (Create, Read)
